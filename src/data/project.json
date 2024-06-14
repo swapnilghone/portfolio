@@ -1,0 +1,74 @@
+[
+    {
+        "key": "renova",
+        "name": "Renova Worldwide",
+        "description": "",
+        "role": "Worked on developing the entire MLM system, including various Bonus Crons and plugins like Customize Checkout, User Referral, Bulk Discount, etc.",
+        "link": "https://renovaworldwide.com/",
+        "image": "portfolio/renova.png",
+        "tech": "wp"
+    },
+    {
+        "key": "gizmogul",
+        "name": "Gizmogul",
+        "description": "Gizmogul is a marketplace where users can sell their refurbished cell phones.It empowers users to effortlessly sell their devices by guiding them through a user-friendly multistep wizard.",
+        "role": "As the Project Manager, I played a pivotal role in overseeing the development of the MLM (Multi-Level Marketing) system and the creation of affiliate portals.",
+        "link": "https://nimbusPerformance.com/",
+        "image": "portfolio/gizmogul.png",
+        "tech": "laravel"
+    },
+    {
+        "key": "urban-abode",
+        "name": "Urban Abode",
+        "description": "",
+        "role": "Implemented the API calls to fetch properties dynamically.Created functional components for listing and displaying properties,ensuring a seamless and user-friendly experience.",
+        "link": "https://www.urbanabode.com.au/",
+        "image": "portfolio/urbanabode.png",
+        "tech": "react"
+    },
+    {
+        "key": "nimbus",
+        "name": "Nimbus Performance",
+        "description": "Nimbus Performance is an e-commerce platform featuring an integrated Affiliate Management System.",
+        "role": "As the Project Manager, I played a pivotal role in overseeing the development of the MLM (Multi-Level Marketing) system and the creation of affiliate portals.",
+        "link": "https://nimbusPerformance.com/",
+        "image": "portfolio/nimbus.png",
+        "tech": "laravel"
+    },
+    {
+        "key": "genesis",
+        "name": "Genesis Framework",
+        "description": "",
+        "role": "Worked on framework enhancement and adding new features.Developed multiple plugins like WSI-Theme Settings, WSI-Secure, WSI-Redirect, Widgetkit, etc.",
+        "link": "https://www.wsigenesis.com/",
+        "image": "portfolio/wsigenesis.png",
+        "tech": "wp"
+    },
+    {
+        "key": "webtutor",
+        "name": "WebTutor",
+        "description": "E-tutoring sites which allow teachers to register and take online classes via video conferencing",
+        "role": "Worked on the teacher portal, integrated WebEx for video conferencing, and implemented PayPal integration for subscription payments",
+        "link": "",
+        "image": "portfolio/renova.png",
+        "tech": "ci"
+    },
+    {
+        "key": "wowi",
+        "name": "Wowi Theme",
+        "description": "WordPress Business theme for Real estate",
+        "role": "Worked on 3rd party integration with ImmobilienScout24 and Immowelt, integrated CSS compiler, and created custom theme options",
+        "link": "https://simplefox.io/work/wowi-theme/",
+        "image": "portfolio/wowi-theme.png",
+        "tech": "wp"
+    },
+    {
+        "key": "anfrageformular",
+        "name": "Anfrageformular",
+        "description": "Multi-Step Drag & Drop Form Builder Plugin",
+        "role": "Worked on multiple version releases and added various form fields like select, date, and text also worked on entry listing",
+        "link": "https://wordpress.org/plugins/anfrageformular/",
+        "image": "portfolio/anfrageformular.png",
+        "tech": "wp"
+    }
+]

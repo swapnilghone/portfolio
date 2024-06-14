@@ -1,0 +1,112 @@
+[
+    {
+        "key": "html",
+        "name": "HTML",
+        "ratings": 90
+    },
+    {
+        "key": "wordpress",
+        "name": "WORDPRESS",
+        "ratings": 80
+    },
+    {
+        "key": "css",
+        "name": "CSS",
+        "ratings": 50
+    },
+    {
+        "key": "codeigniter",
+        "name": "CODEIGNITER",
+        "ratings": 70
+    },
+    {
+        "key": "javascript",
+        "name": "JAVASCRIPT",
+        "ratings": 70
+    },
+    {
+        "key": "laravel",
+        "name": "LARAVEL",
+        "ratings": 70
+    },
+    {
+        "key": "php",
+        "name": "PHP",
+        "ratings": 70
+    },
+    {
+        "key": "phpunit",
+        "name": "PHPUNIT",
+        "ratings": 60
+    },
+    {
+        "key": "mysql",
+        "name": "MYSQL",
+        "ratings": 70
+    },
+    {
+        "key": "reactjs",
+        "name": "REACTJS",
+        "ratings": 60
+    },
+    {
+        "key": "git",
+        "name": "GIT",
+        "ratings": 70
+    },
+    {
+        "key": "bootstrap",
+        "name": "BOOTSTRAP",
+        "ratings": 50
+    },
+    {
+        "key": "composer",
+        "name": "COMPOSER",
+        "ratings": 80
+    },
+    {
+        "key": "node",
+        "name": "NODE",
+        "ratings": 40
+    },
+    {
+        "key": "npm",
+        "name": "NPM",
+        "ratings": 80
+    },
+    {
+        "key": "docer",
+        "name": "DOCKER",
+        "ratings": 70
+    },
+    {
+        "key": "jira",
+        "name": "JIRA",
+        "ratings": 60
+    },
+    {
+        "key": "xdebug",
+        "name": "XDEBUG",
+        "ratings": 50
+    },
+    {
+        "key": "project_management",
+        "name": "PROJECT MANAGEMENT",
+        "ratings": 70
+    },
+    {
+        "key": "requirment_gathering",
+        "name": "REQUIREMENT GATHERING",
+        "ratings": 70
+    },
+    {
+        "key": "client_communication",
+        "name": "CLIENT COMMUNICATION",
+        "ratings": 80
+    },
+    {
+        "key": "project_estimation",
+        "name": "PROJECT ESTIMATIONS",
+        "ratings": 80
+    }
+]
