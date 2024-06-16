@@ -6,16 +6,18 @@
         "role": "Worked on developing the entire MLM system, including various Bonus Crons and plugins like Customize Checkout, User Referral, Bulk Discount, etc.",
         "link": "https://renovaworldwide.com/",
         "image": "portfolio/renova.png",
-        "tech": "wp"
+        "tech": "wp",
+        "techstack": "PHP, WordPress, MySql"
     },
     {
         "key": "gizmogul",
         "name": "Gizmogul",
         "description": "Gizmogul is a marketplace where users can sell their refurbished cell phones.It empowers users to effortlessly sell their devices by guiding them through a user-friendly multistep wizard.",
         "role": "As the Project Manager, I played a pivotal role in overseeing the development of the MLM (Multi-Level Marketing) system and the creation of affiliate portals.",
-        "link": "https://nimbusPerformance.com/",
+        "link": "https://gizmogul.com/",
         "image": "portfolio/gizmogul.png",
-        "tech": "laravel"
+        "tech": "laravel",
+        "techstack": "PHP, Laravel, MySql"
     },
     {
         "key": "urban-abode",
@@ -24,7 +26,18 @@
         "role": "Implemented the API calls to fetch properties dynamically.Created functional components for listing and displaying properties,ensuring a seamless and user-friendly experience.",
         "link": "https://www.urbanabode.com.au/",
         "image": "portfolio/urbanabode.png",
-        "tech": "react"
+        "tech": "react",
+        "techstack": "JavaScript, ReactJs, Bootstrap"
+    },
+    {
+        "key": "renova-healthpro",
+        "name": "Renova HealthPro",
+        "description": "Renova Portal for HealthPro representatives where they can place bulk orders and get additional discounts",
+        "role": "Build the site backend in Wordpress, Build the front portal in React Js",
+        "link": "https://healthpro.renovaworldwide.com/",
+        "image": "portfolio/renova-healthpro.png",
+        "tech": "react",
+        "techstack": "PHP, Wordpress, JavaScript, ReactJs, Bootstrap"
     },
     {
         "key": "nimbus",
@@ -33,7 +46,8 @@
         "role": "As the Project Manager, I played a pivotal role in overseeing the development of the MLM (Multi-Level Marketing) system and the creation of affiliate portals.",
         "link": "https://nimbusPerformance.com/",
         "image": "portfolio/nimbus.png",
-        "tech": "laravel"
+        "tech": "laravel",
+        "techstack": "PHP, Laravel, MySql"
     },
     {
         "key": "genesis",
@@ -42,7 +56,8 @@
         "role": "Worked on framework enhancement and adding new features.Developed multiple plugins like WSI-Theme Settings, WSI-Secure, WSI-Redirect, Widgetkit, etc.",
         "link": "https://www.wsigenesis.com/",
         "image": "portfolio/wsigenesis.png",
-        "tech": "wp"
+        "tech": "wp",
+        "techstack": "PHP, WordPress, MySql"
     },
     {
         "key": "webtutor",
@@ -50,8 +65,19 @@
         "description": "E-tutoring sites which allow teachers to register and take online classes via video conferencing",
         "role": "Worked on the teacher portal, integrated WebEx for video conferencing, and implemented PayPal integration for subscription payments",
         "link": "",
-        "image": "portfolio/renova.png",
-        "tech": "ci"
+        "image": "portfolio/webtutor.png",
+        "tech": "ci",
+        "techstack": "PHP, CodeIgniter, MySql"
+    },
+    {
+        "key": "buyeasy",
+        "name": "Buyeasy",
+        "description": "Buyeasy is ecommerce site which has variety of products including Beverages ,Drink mixes, Pantry ,Snacks etc.Site targets wholesale users where they can purchase products in case with additional discount option",
+        "role": "Integrated site template, Created the custom discount module , which provide discount on each purchased product, Created custom option where user can buy products in case with additional discount,Created custom CSV import tool, Customize cart and checkout flow Integrated Amazon S3 bucket for images and assets ",
+        "link": "https://buyeasy.com/",
+        "image": "portfolio/buyeasy.png",
+        "tech": "ci",
+        "techstack": "PHP, CodeIgniter, MySql"
     },
     {
         "key": "wowi",
@@ -60,7 +86,8 @@
         "role": "Worked on 3rd party integration with ImmobilienScout24 and Immowelt, integrated CSS compiler, and created custom theme options",
         "link": "https://simplefox.io/work/wowi-theme/",
         "image": "portfolio/wowi-theme.png",
-        "tech": "wp"
+        "tech": "wp",
+        "techstack": "PHP, WordPress, MySql"
     },
     {
         "key": "anfrageformular",
@@ -69,6 +96,17 @@
         "role": "Worked on multiple version releases and added various form fields like select, date, and text also worked on entry listing",
         "link": "https://wordpress.org/plugins/anfrageformular/",
         "image": "portfolio/anfrageformular.png",
-        "tech": "wp"
+        "tech": "wp",
+        "techstack": "PHP, WordPress, MySql"
+    },
+    {
+        "key": "hideway-holidays",
+        "name": "Hideway Holidays",
+        "description": "Hideway holiday is hotel and flight booking site which allow user to search for various hotels from US and FIJI etc.User can booking hotels, flights, transports meals.",
+        "role": "Project estimation, Project Manager, Worked on flight API integration",
+        "link": "https://www.hideawayholidays.com.au/",
+        "image": "portfolio/hideway.png",
+        "tech": "wp",
+        "techstack": "PHP, WordPress, MySql"
     }
 ]

@@ -47,13 +47,13 @@ const Resume = () => {
             <Document file={swapCv} onLoadSuccess={onDocumentLoadSuccess} className="resume-wrap">
               <Page pageNumber={pageNumber || 1} scale="1.5" />
             </Document>
-            <div>
-              <p>- {pageNumber || (numPages ? 1 : '--')} -</p>
+            <div className='resume-navigation'>
               <button type="button" disabled={pageNumber <= 1} onClick={previousPage} >
-                Previous
+                <i className="fa-solid fa-chevron-left"></i>
               </button>
+              <span>{pageNumber || (numPages ? 1 : '--')}</span>
               <button type="button" disabled={pageNumber >= numPages} onClick={nextPage}>
-                Next
+                <i className="fa-solid fa-chevron-right"></i>
               </button>
             </div>
           </div>

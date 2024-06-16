@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Isotope from 'isotope-layout';
 import projects from '../data/project.json';
 
@@ -6,6 +6,13 @@ const Portfolio = () => {
 
     const gridRef = useRef(null);
     const isotopeInstance = useRef(null);
+
+    const [activeFilter,setActiveFilter] = useState('*');
+
+    const handleFilter = (filter) => {
+        isotopeInstance.current.arrange({ filter: filter });
+        setActiveFilter(filter);
+    }
 
     useEffect(() => {
         isotopeInstance.current = new Isotope(gridRef.current, {
@@ -30,11 +37,11 @@ const Portfolio = () => {
                 <div className="row" data-aos="fade-up">
                     <div className="col-lg-12 d-flex justify-content-center">
                         <ul id="portfolio-flters">
-                            <li onClick={() => isotopeInstance.current.arrange({ filter: '*' })} className="filter-active" >All</li>
-                            <li onClick={() => isotopeInstance.current.arrange({ filter: '.filter-wp' })} >Wordpress</li>
-                            <li onClick={() => isotopeInstance.current.arrange({ filter: '.filter-laravel' })} >Laravel</li>
-                            <li onClick={() => isotopeInstance.current.arrange({ filter: '.filter-ci' })} >Codeigniter</li>
-                            <li onClick={() => isotopeInstance.current.arrange({ filter: '.filter-react' })} >ReactJs</li>
+                            <li onClick={() => handleFilter('*') } className={activeFilter == '*'? 'filter-active' :''} >All</li>
+                            <li onClick={() => handleFilter('.filter-wp') } className={activeFilter == '.filter-wp'? 'filter-active' :''}>Wordpress</li>
+                            <li onClick={() => handleFilter('.filter-laravel') } className={activeFilter == '.filter-laravel'? 'filter-active' :''}>Laravel</li>
+                            <li onClick={() => handleFilter('.filter-ci') } className={activeFilter == '.filter-ci'? 'filter-active' :''}>Codeigniter</li>
+                            <li onClick={() => handleFilter('.filter-react') } className={activeFilter == '.filter-react'? 'filter-active' :''} >ReactJs</li>
                         </ul>
                     </div>
                 </div>
