@@ -36,9 +36,17 @@ const Resume = () => {
     <section id="resume" className="resume section-wrap" data-aos="fade-down">
       <div className="container">
 
-        <div className="section-title">
-          <h2>Resume</h2>
+        <div className="row">
+          <div className="col-md-8">
+            <div className="section-title">
+              <h2>Resume</h2>
+            </div>
+          </div>
+          <div className="col-md-4 text-md-end mb-4 mb-md-0">
+            <a href={swapCv} target='_blank' className="btn btn-primary">Download</a>
+          </div>
         </div>
+        
 
         <div className="row">
           <div className="col-md-12">
