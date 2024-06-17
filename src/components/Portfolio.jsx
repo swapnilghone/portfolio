@@ -1,13 +1,16 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Isotope from 'isotope-layout';
 import projects from '../data/project.json';
+import GLightbox from 'glightbox';
+import 'glightbox/dist/css/glightbox.css';
+import PortfolioDetail from './PortfolioDetail';
 
 const Portfolio = () => {
 
     const gridRef = useRef(null);
     const isotopeInstance = useRef(null);
 
-    const [activeFilter,setActiveFilter] = useState('*');
+    const [activeFilter, setActiveFilter] = useState('*');
 
     const handleFilter = (filter) => {
         isotopeInstance.current.arrange({ filter: filter });
@@ -15,6 +18,15 @@ const Portfolio = () => {
     }
 
     useEffect(() => {
+
+        // init gitglob js for popup
+        const lightbox = GLightbox({
+            selector: '.project-details',
+            width: '100vh',
+            height: 'auto'
+        });
+
+        // init isotope js for project filters
         isotopeInstance.current = new Isotope(gridRef.current, {
             itemSelector: '.portfolio-item',
             layoutMode: 'fitRows',
@@ -37,11 +49,11 @@ const Portfolio = () => {
                 <div className="row" data-aos="fade-up">
                     <div className="col-lg-12 d-flex justify-content-center">
                         <ul id="portfolio-flters">
-                            <li onClick={() => handleFilter('*') } className={activeFilter == '*'? 'filter-active' :''} >All</li>
-                            <li onClick={() => handleFilter('.filter-wp') } className={activeFilter == '.filter-wp'? 'filter-active' :''}>Wordpress</li>
-                            <li onClick={() => handleFilter('.filter-laravel') } className={activeFilter == '.filter-laravel'? 'filter-active' :''}>Laravel</li>
-                            <li onClick={() => handleFilter('.filter-ci') } className={activeFilter == '.filter-ci'? 'filter-active' :''}>Codeigniter</li>
-                            <li onClick={() => handleFilter('.filter-react') } className={activeFilter == '.filter-react'? 'filter-active' :''} >ReactJs</li>
+                            <li onClick={() => handleFilter('*')} className={activeFilter == '*' ? 'filter-active' : ''} >All</li>
+                            <li onClick={() => handleFilter('.filter-wp')} className={activeFilter == '.filter-wp' ? 'filter-active' : ''}>Wordpress</li>
+                            <li onClick={() => handleFilter('.filter-laravel')} className={activeFilter == '.filter-laravel' ? 'filter-active' : ''}>Laravel</li>
+                            <li onClick={() => handleFilter('.filter-ci')} className={activeFilter == '.filter-ci' ? 'filter-active' : ''}>Codeigniter</li>
+                            <li onClick={() => handleFilter('.filter-react')} className={activeFilter == '.filter-react' ? 'filter-active' : ''} >ReactJs</li>
                         </ul>
                     </div>
                 </div>
@@ -60,13 +72,13 @@ const Portfolio = () => {
                                             <h4 className="project-title">{project.name}</h4>
                                             <div className="project-description">
                                                 <p>{project.description}</p>
-                                                {project.role && (<p><b>Role:</b>{project.role}</p>)}
                                             </div>
-                                            <div className="project-link">
-                                                <a href={project.link}>{project.link}</a>
+                                            <div className="project-detail-link">
+                                                <a href={`#project-details-${project.key}`} className='project-details'> View Details</a>
                                             </div>
                                         </div>
                                     </div>
+                                    <PortfolioDetail project={project} />
                                 </div>
                             )
                         })

@@ -2,12 +2,12 @@
     {
         "key": "renova",
         "name": "Renova Worldwide",
-        "description": "",
+        "description": "RenoaWorldwide.com is the main retail site for Renoa Worldwide, developed using WordPress and WooCommerce. As a comprehensive e-commerce platform, it offers a seamless user experience, allowing customers to browse through an extensive range of products and complete their purchases smoothly. ",
         "role": "Worked on developing the entire MLM system, including various Bonus Crons and plugins like Customize Checkout, User Referral, Bulk Discount, etc.",
         "link": "https://renovaworldwide.com/",
         "image": "portfolio/renova.png",
         "tech": "wp",
-        "techstack": "PHP, WordPress, MySql"
+        "techstack": "PHP, WordPress, MySql, Cloudflare"
     },
     {
         "key": "gizmogul",
@@ -22,7 +22,7 @@
     {
         "key": "urban-abode",
         "name": "Urban Abode",
-        "description": "",
+        "description": "UrbanAbode is a property listing portal designed for renting and selling real estate. Users looking to purchase new properties benefit from a dedicated website for each property, allowing them to add images, 360-degree videos, detailed descriptions, and a contact form. The platform also features a robust Broker Network, enabling brokers to connect with each other and add fellow brokers to their favorite lists, fostering a collaborative and efficient real estate community.",
         "role": "Implemented the API calls to fetch properties dynamically.Created functional components for listing and displaying properties,ensuring a seamless and user-friendly experience.",
         "link": "https://www.urbanabode.com.au/",
         "image": "portfolio/urbanabode.png",
@@ -52,7 +52,7 @@
     {
         "key": "genesis",
         "name": "Genesis Framework",
-        "description": "",
+        "description": "The Genesis Framework is a powerful, flexible, and secure WordPress theme framework developed by StudioPress. It provides a robust foundation for building custom WordPress themes, featuring clean and optimized code, responsive design, and built-in SEO capabilities.",
         "role": "Worked on framework enhancement and adding new features.Developed multiple plugins like WSI-Theme Settings, WSI-Secure, WSI-Redirect, Widgetkit, etc.",
         "link": "https://www.wsigenesis.com/",
         "image": "portfolio/wsigenesis.png",
@@ -92,7 +92,7 @@
     {
         "key": "anfrageformular",
         "name": "Anfrageformular",
-        "description": "Multi-Step Drag & Drop Form Builder Plugin",
+        "description": "Multi-Step Drag & Drop Form Builder Plugin for Wordpress",
         "role": "Worked on multiple version releases and added various form fields like select, date, and text also worked on entry listing",
         "link": "https://wordpress.org/plugins/anfrageformular/",
         "image": "portfolio/anfrageformular.png",
@@ -108,5 +108,25 @@
         "image": "portfolio/hideway.png",
         "tech": "wp",
         "techstack": "PHP, WordPress, MySql"
+    },
+    {
+        "key": "newsmonk",
+        "name": "NewsMonk",
+        "description": "NewsMonk is a simple news site built in React, allowing users to read the latest news and filter them by various categories. It utilizes the newsapi.org API for fetching news data.",
+        "role": "Site Development",
+        "link": "https://github.com/swapnilghone/newsmonk",
+        "image": "portfolio/newsmonk.gif",
+        "tech": "react",
+        "techstack": "Javascript, ReactJs, Bootstrap, news.org"
+    },
+    {
+        "key": "inotebook",
+        "name": "iNoteBook",
+        "description": "iNoteBook is a personal notes app built using the MERN stack. It provides users with the ability to sign up or log in securely. Once logged in, users can create, view, edit, and manage their personal notes efficiently.User authentication is handled using JSON Web Tokens (JWT).",
+        "role": "Full Stack Development",
+        "link": "https://github.com/swapnilghone/inotebook",
+        "image": "portfolio/inotebook.gif",
+        "tech": "react",
+        "techstack": "Javascript, ReactJs, Node, Express, MongoDB, Bootstrap"
     }
 ]

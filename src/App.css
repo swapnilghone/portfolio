@@ -38,3 +38,56 @@
 .resume-navigation button:disabled{
     opacity: 0.5;
 }
+
+.project-detail-link{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: CENTER;
+    z-index: 3;
+    opacity: 1;
+    font-size: 16px;
+    text-align: center;
+    background: rgb(128 130 132 / 75%);
+    
+}
+
+.project-detail-link a.project-details{
+    color: #fff;
+    font-weight: 600;
+} 
+
+.gslide-inline .ginlined-content{
+    padding: 0 !important;
+}
+
+.project-detail-wrap .project-detail-image{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    height: 350px;
+    width: 100%;
+}
+.project-detail-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+.project-detail-wrap .project-detail-container{
+    padding: 20px;
+}
+
+.project-detail-wrap .project-detail-section{
+    margin: 20px 0;
+}
+
+.project-title h2{
+    font-weight: 700;
+    font-size: 26px;
+    color: #173b6c;
+    margin-bottom: 20px;
+}
