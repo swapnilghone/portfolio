@@ -4,7 +4,7 @@ import skills from '../data/skills.json';
 const Skills = () => {
     // console.log(skills);
     return (
-        <section id="skills" className="skills section-bg section-wrap" data-aos="fade-left">
+        <section id="skills" className="skills section-bg section-wrap" data-aos="fade-down">
             <div className="container">
 
                 <div className="section-title">

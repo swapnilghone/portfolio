@@ -1118,6 +1118,11 @@ h4.heading {
   .breadcrumbs ol li {
     display: inline-block;
   }
+
+  .resume-wrap canvas{
+    width: 100% !important;
+    height: auto !important;
+  }
 }
 
 /*--------------------------------------------------------------

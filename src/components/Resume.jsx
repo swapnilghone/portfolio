@@ -15,24 +15,22 @@ const Resume = () => {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1);
 
-  function onDocumentLoadSuccess({ numPages }) {
+  const onDocumentLoadSuccess = ({ numPages }) => {
     setNumPages(numPages);
     setPageNumber(1);
   }
 
-  function changePage(offset) {
+  const changePage = (offset) => {
     setPageNumber(prevPageNumber => prevPageNumber + offset);
   }
 
-  function previousPage() {
+  const previousPage = () => {
     changePage(-1);
   }
 
-  function nextPage() {
+  const nextPage = () => {
     changePage(1);
   }
-
-
 
   return (
     <section id="resume" className="resume section-wrap" data-aos="fade-down">
